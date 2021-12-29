@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from "./components/Componente";
 import { Component } from 'react/cjs/react.production.min';
-
+import Estado from './components/estado';
+import RenderecizadoCondicional from './components/RenderecizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 function App() {
   return (
     <div className="App">
@@ -22,9 +24,13 @@ function App() {
       </header>
       <section>
         <Componente msg="hola soy un Componente Funcional desde una arrow function"/>
-      
-
+        <Estado/>
+        <hr></hr>
+        <RenderecizadoCondicional/>
+        <RenderizadoElementos/>
+        
       </section>
+      
     </div>
   );
 }
