@@ -5,6 +5,7 @@ import { Component } from 'react/cjs/react.production.min';
 import Estado from './components/estado';
 import RenderecizadoCondicional from './components/RenderecizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
+import { EventosES6, EventosES7,MasSobreEventos } from './components/Eventos';
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,9 @@ function App() {
         <hr></hr>
         <RenderecizadoCondicional/>
         <RenderizadoElementos/>
+        <EventosES6/>
+        <EventosES7/>
+        <MasSobreEventos/>
         
       </section>
       
